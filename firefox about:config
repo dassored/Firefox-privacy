@@ -1,0 +1,35 @@
+browser.safebrowsing.phishing.enabled': True,
+    'browser.safebrowsing.malware.enabled': True,
+    'browser.cache.disk_cache_ssl': False,
+    'network.cookie.cookieBehavior': 1,
+    'network.cookie.lifetimePolicy': 2,
+    'privacy.donottrackheader.enabled': True,
+    'privacy.donottrackheader.value': 1,
+    'privacy.sanitize.sanitizeOnShutdown': True,
+    'privacy.sanitize.promptOnSanitize': False,
+    'privacy.clearOnShutdown.cache': True,
+    'privacy.clearOnShutdown.cookies': True,
+    'privacy.clearOnShutdown.downloads': True,
+    'privacy.clearOnShutdown.formdata': True,
+    'privacy.clearOnShutdown.history': True,
+    'privacy.clearOnShutdown.sessions': True,
+    'privacy.clearOnShutdown.siteSettings': True
+privacy.firstparty.isolate true
+privacy.resistFingerprinting true
+privacy.trackingprotection.enabled true
+
+network.cookie.cookieBehavior : Cette préférence contrôle le comportement des cookies. Vous pouvez la définir sur :
+
+0 : Accepter tous les cookies (par défaut).
+1 : Accepter uniquement les cookies provenant du site d'origine (bloquer les cookies tiers).
+2 : Bloquer tous les cookies
+
+browser.send_pings : Lorsque cette préférence est désactivée (false), les sites web ne peuvent pas envoyer des requêtes de suivi en utilisant l'attribut "ping" des balises <a> et <area>
+
+media.peerconnection.enabled : Cette préférence contrôle la fonctionnalité de WebRTC, qui permet les appels vidéo et audio en temps réel dans le navigateur. Vous pouvez la désactiver (false) pour empêcher les sites web d'accéder à votre adresse IP réelle via WebRTC.
+
+browser.sessionstore.privacy_level : Cette préférence contrôle le niveau de stockage des données de session, telles que les formulaires, les positions de défilement, les cookies, et les données POST. Vous pouvez la définir sur :
+
+0 : Stocker des données supplémentaires de session pour tous les sites (par défaut).
+1 : Stocker des données supplémentaires de session uniquement pour les sites non chiffrés (non-HTTPS).
+2 : Ne jamais stocker de données supplémentaires de session.
