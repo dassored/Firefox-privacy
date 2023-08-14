@@ -1,1 +1,1 @@
-# firefox-privacy
+# Firefox-privacy
